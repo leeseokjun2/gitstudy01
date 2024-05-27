@@ -19,6 +19,14 @@ app.get('/shop', (req, res) => {
     res.end('<h1>Hello shopping mall!!</h1>');
 });
 
+app.get('/family', (req, res) => {
+    res.end('<h1>가족입니다!!!</h1>');
+});
+
+app.get('/maple', (req, res) => {
+    res.end('<h1>메이플스토리</h1>');
+});
+
 
 
 const server = http.createServer(app);
