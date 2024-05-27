@@ -6,8 +6,9 @@ app.get('/', (req, res) => {
     res.end('<h1>Hello Worid!</h1>');
 });
 
+// local 에서 수정 하였다.
 app.get('/home', (req, res) => {
-    res.end('<h1>Hello Home!!</h1>');
+    res.end('<h1>Hello Home 2222222!!</h1>');
 });
 
 app.get('/profile', (req, res) => {
