@@ -3,7 +3,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => {
-    res.end('<h1>Hello Worid!</h1>');
+    res.end('<h1>반갑다</h1>');
 });
 
 
